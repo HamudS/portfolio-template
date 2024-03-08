@@ -14,51 +14,57 @@ export default function Main() {
         </p>
       </div>
       <div className="main__work work--1">
-        <div className="work__content">
-          <div className="tag tag--1">Fintech</div>
-          <h3>Work name here</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do
-            eiusmod tempor incididunt ut labore et dolore magna.
-          </p>
-          <button>
-            View case study <img src={vector} />
-          </button>
+        <div className="content__outer">
+          <div className="work__content">
+            <div className="tag tag--1">Fintech</div>
+            <h3>Work name here</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+            <button>
+              View case study <img src={vector} />
+            </button>
+          </div>
         </div>
         <div className="work__image">
           <img src={work1} />
         </div>
       </div>
       <div className="main__work work--2">
-        <div className="work__content">
-          <div className="tag tag--2">EdTech</div>
-          <h3>Work name here</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do
-            eiusmod tempor incididunt ut labore et dolore magna.
-          </p>
-          <button>
-            View case study <img src={vector} />
-          </button>
+        <div className="content__outer">
+          <div className="work__content">
+            <div className="tag tag--2">EdTech</div>
+            <h3>Work name here</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+            <button>
+              View case study <img src={vector} />
+            </button>
+          </div>
         </div>
         <div className="work__image">
           <img src={work2} />
         </div>
       </div>
       <div className="main__work work--3">
-        <div className="work__content">
-          <div className="tag tag--3">Pharma</div>
-          <h3>Work name here</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do
-            eiusmod tempor incididunt ut labore et dolore magna.
-          </p>
-          <button>
-            View case study <img src={vector} />
-          </button>
+        <div className="content__outer">
+          <div className="work__content">
+            <div className="tag tag--3">Pharma</div>
+            <h3>Work name here</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+            <button>
+              View case study <img src={vector} />
+            </button>
+          </div>
         </div>
         <div className="work__image">
           <img src={work3} />
